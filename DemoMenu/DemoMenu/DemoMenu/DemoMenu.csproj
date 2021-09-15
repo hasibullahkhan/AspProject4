@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Css\Menu.css" />
+    <Content Include="DemoDocumentFrm.aspx" />
     <Content Include="Image\Arow1.png" />
     <Content Include="Menu.aspx" />
     <Content Include="Menu1.aspx" />
@@ -75,6 +76,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DemoDocumentFrm.aspx.cs">
+      <DependentUpon>DemoDocumentFrm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoDocumentFrm.aspx.designer.cs">
+      <DependentUpon>DemoDocumentFrm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Menu.aspx.cs">
       <DependentUpon>Menu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
